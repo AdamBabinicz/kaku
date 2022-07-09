@@ -10,21 +10,21 @@ const Footer = () => {
       <div className="footer">
         <div className="social-links">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/michiokaku"
             target="_blank"
             rel="noopener noreferer"
           >
             <FaFacebookF />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://twitter.com/michiokaku"
             target="_blank"
             rel="noopener noreferer"
           >
             <FaTwitter />
           </a>
           <a
-            href="https://pinterest.com"
+            href="https://pl.pinterest.com/michiokaku"
             target="_blank"
             rel="noopener noreferer"
           >
