@@ -1,43 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Kopernik położył podwaliny pod istnienie programów kosmicznych […] Bez jego odkryć prawa planetarne Keplera i twierdzenia Newtona utraciłyby swój punkt wyjścia - można przypuszczać, że rewolucja naukowa i technologiczna opóźniłaby się o 100-200 lat. - dr Michio Kaku"
+    />
+    <meta
+      name="Dr Michio Kaku podczas wywiadu stwierdził, że UFO nie przestrzegają znanych praw aerodynamiki i wykraczają poza technologię, którą człowiek może dziś wyprodukować. Dr Michio Kaku, światowej sławy fizyk teoretyczny, uważa, że ​​zjawisko UFO ujawnia tak niesamowitą technologię, że teraz wojsko musi udowodnić, że UFO nie są obiektami z innych światów, a nie teoriami spiskowymi."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Fizyk podkreśla, że nauka dotyczy praw natury, a religia dotyczy etyki. Nie ma problemu, mogą współistnieć, dopóki te dwie dziedziny nie zaczynają się przenikać i wzajemnie podważać."
+    />
+    <meta property="og:url" content="https://perelman.netlify.app" />
+    <meta property="og:image" content="https://perelman.netlify.app/2.png" />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Floriańska 41"
+    />
+    <meta property="business:contact_data:locality" content="Radom" />
+    <meta property="business:contact_data:region" content="mazowieckie" />
+    <meta property="business:contact_data:postal_code" content="31-019" />
+    <meta property="business:contact_data:country_name" content="Polska" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/luciuscoolguy/status/1034899783901741056"
+    />
+    <meta
+      name="twitter:title"
+      content="Michio Kaku, powołując się na Galileusza, wskazuje na różnice między nauką, a religią. Nauka zastanawia się nad tym jak udowodnić istnienie raju i jak on działa, a religia głowi się nad tym jak trafić do raju. "
+    />
+    <meta
+      name="twitter:description"
+      content="Michio Kaku twierdzi, że biorąc pod uwagę teorię wieloświata, można połączyć te dwa pozornie sprzeczne ze sobą dogmaty. Analizując teorię strun, dowiadujemy się, że „Wielki Wybuch zdarza się nieustannie i cyklicznie”."
+    />
+    <meta name="twitter:image" content="https://perelman.netlify.app/10.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Czy Bóg istnieje? Michio Kaku z nowojorskiego City College w wywiadzie dla The Guardian przypomniał wypowiedź Stephena Hawkinga, który twierdził, że Bóg nie istnieje, ponieważ „po Wielkim Wybuchu nie miałby czasu na stworzenie wszechświata”."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Michio Kaku</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Michio Kaku",
+        "contentUrl": "https://www.facebook.com/grigori.perelman.90",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://perelman.netlify.app/1.svg",
+        "uploadDate": "2022-07-09",
+        "description": "Film Marsjanin kosztował 100 mln USD - w tym samym czasie indyjska misja na Marsa [Mangalyaan – przyp. red.] pochłonęła zaledwie nieco ponad 70 mln USD. Hollywoodzka opowieść o podróży na Marsa kosztuje już zatem więcej niż realny lot. - Michio Kaku"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://perelman.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Grigorij Perelman",
+        "url": "https://perelman.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/grigori.perelman.90",
+          "https://twitter.com/luciuscoolguy/status/1034899783901741056",
+          "https://www.youtube.com/watch?v=0Q5Cl5yR7V4",
+          "https://pl.pinterest.com/pin/461759768014014919"
+        ]
+      }
+    </script>
   </body>
 </html>
