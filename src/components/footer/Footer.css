@@ -28,6 +28,13 @@
 .social-links > a:hover svg {
   color: rgb(21, 103, 244);
 }
+.logo-f {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
 .logo-f > img {
   width: 5rem;
 }
@@ -49,6 +56,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .footer {
+    height: max-content;
+  }
+
   .social-links {
     margin: auto;
     width: 90%;
@@ -58,5 +69,9 @@
   }
   .social-links > a:nth-last-child(1) svg {
     margin-right: 0;
+  }
+  .logo-f {
+    width: 85%;
+    margin: 0 auto;
   }
 }

@@ -33,6 +33,7 @@ const Footer = () => {
         </div>
         <div className="logo-f">
           <img src={Logo} alt="..." />
+          <p>Radom, 2022 - {new Date().getFullYear()}.</p>
         </div>
       </div>
       <div className="blur blur-f-1"></div>
